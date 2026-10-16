@@ -1,0 +1,19 @@
+node_modules/
+downloads/
+artifacts/
+
+# 执行产物（截图/报告按需保留，默认忽略生成的媒体）
+results/screenshots/*.png
+results/screenshots/*.jpeg
+*.webm
+*.mp4
+*.har
+
+# agent-browser 会话状态
+agent-browser-state-*.json
+
+# 凭据文件（含账号密码，禁止入库）
+test-cases/_CREDENTIALS.md
+
+.env
+.env.local

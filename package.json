@@ -1,0 +1,18 @@
+{
+  "name": "agent-browser-ui-test",
+  "version": "2.0.0",
+  "description": "基于 agent-browser 的用例驱动 UI 自动化测试：结构化 Markdown 用例 + LLM 按 agent-browser 核心循环执行 + 证据化测试报告",
+  "private": true,
+  "scripts": {
+    "install:browser": "agent-browser install",
+    "doctor": "agent-browser doctor"
+  },
+  "keywords": [
+    "agent-browser",
+    "ui-test",
+    "browser-automation",
+    "llm",
+    "skill"
+  ],
+  "license": "MIT"
+}

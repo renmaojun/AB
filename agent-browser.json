@@ -1,0 +1,12 @@
+{
+  "$schema": "https://agent-browser.dev/schema.json",
+  "headed": false,
+  "screenshotDir": "./screenshots",
+  "screenshotFormat": "png",
+  "downloadPath": "./downloads",
+  "idleTimeout": "5m",
+  "ignoreHttpsErrors": true,
+  "args": "--no-sandbox,--disable-gpu",
+  "contentBoundaries": true,
+  "maxOutput": 50000
+}
