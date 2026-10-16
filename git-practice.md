@@ -18,3 +18,8 @@
 - fetch: 获取远程更新
 - pull: 拉取并合并
 - push: 推送到远程
+
+## 暂存操作（feature 分支添加）
+- stash: 临时保存工作区改动
+- stash pop: 恢复暂存的改动
+- stash list: 查看暂存列表
