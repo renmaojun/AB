@@ -11,6 +11,8 @@ results/screenshots/*.jpeg
 
 # agent-browser 会话状态
 agent-browser-state-*.json
+# 保存的登录态（含 token，禁止入库）
+**/auth-state.json
 
 # 凭据文件（含账号密码，禁止入库）
 test-cases/_CREDENTIALS.md
